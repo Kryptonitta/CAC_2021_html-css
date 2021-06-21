@@ -1,0 +1,240 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-weight: 100;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: auto;
+}
+
+.container {
+	display: flex;
+	width: 1300px;
+	height: auto;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*HEADER*/
+header {
+	height: 100vh;
+	width: inherit;
+	background-image: url(../css/img/header.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	width: inherit;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	margin: 40px;
+	font-size: 50px;
+	justify-content: space-between;
+}
+
+.nav b {
+	font-weight: 600;
+}
+
+.enlaces a {
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+.titulo {
+	margin: 100px 40px;
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	justify-content: end;
+}
+
+/*SECCION 1*/
+.medio {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	padding: 50px 120px;
+	justify-content: space-around;
+	align-items: center;
+	width: inherit;
+}
+
+.medio h2 {
+	font-size: 35px;
+}
+
+.itemsContainer {
+	display: flex;
+}
+
+.items {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+.items img {
+	height: 80px;
+}
+
+.items h3 {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.items p {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+/*SECCION 2*/
+.deptos {
+	height: 450px;
+	display: flex;
+	margin: 50px 120px;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.deptos h2 {
+	font-size: 35px;
+}
+
+.cardsContainer {
+	display: flex;
+	width: inherit;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 22px;
+	align-items: center;
+	text-align: center;
+	border: #d4cfcf solid 1px;
+	background-color: whitesmoke;
+	align-content: center;
+}
+.card img {
+	width: 100%;
+}
+
+.iconosCard {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin: 15px;
+}
+
+.iconosCard img {
+	width: 30px;
+}
+
+.iconoP {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+}
+
+.iconoP img {
+	margin: 10px;
+}
+
+.iconoP p {
+	color: black !important;
+	font-weight: 100 !important;
+}
+
+.card button {
+	width: 100%;
+	padding: 5px;
+	color: white;
+	background-color: rgb(242, 160, 8);
+	border: none;
+	height: 40px;
+	font-size: 12px;
+}
+
+.cardAdentro {
+	margin: 10px;
+	text-align: left;
+}
+
+.cardAdentro h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.cardAdentro p {
+	text-align: left;
+	font-size: 18px;
+	color: #79d625;
+	font-weight: bold;
+}
+
+.verTodasBtn {
+	margin: 20px 140px 20px 0px;
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	height: 40px;
+	width: 120px;
+	align-items: center;
+	background-color: #79d625;
+	border: none;
+	color: white;
+}
+
+/*FOOTER*/
+footer {
+	background-image: url(../css/img/encuentra.jpg);
+	background-size: cover;
+	display: flex;
+	height: 200px;
+	flex-direction: column;
+	background-color: #804222;
+	width: inherit;
+	padding: 40px 135px;
+	justify-content: space-around;
+	color: white;
+	font-weight: 100;
+}
+
+footer button {
+	width: 150px;
+	padding: 5px;
+	color: white;
+	background-color: rgb(242, 160, 8);
+	border: none;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+footer h4 {
+	font-size: 25px;
+}
